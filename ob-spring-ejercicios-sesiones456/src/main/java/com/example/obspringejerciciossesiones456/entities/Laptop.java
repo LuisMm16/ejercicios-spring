@@ -89,4 +89,17 @@ public class Laptop {
     public void setTouchScreen(Boolean touchScreen) {
         this.touchScreen = touchScreen;
     }
+
+    @Override
+    public String toString() {
+        return "Laptop{" +
+                "id=" + id +
+                ", marca='" + marca + '\'' +
+                ", precio=" + precio +
+                ", procesador='" + procesador + '\'' +
+                ", ram=" + ram +
+                ", videoDedicado=" + videoDedicado +
+                ", touchScreen=" + touchScreen +
+                '}';
+    }
 }
